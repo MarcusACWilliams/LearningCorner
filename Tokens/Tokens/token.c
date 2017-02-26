@@ -7,17 +7,17 @@
 int main(){
 char str[200] = "This is - www.Temple.com - website";
 const char s[5] = { ' ','-',',','.' };
-char *token;
+char *token = NULL;
 
 /* get the first token */
-token = strtok(str, s);
+token = strtok_s(str, s, &token);
 
 /* walk through other tokens */
 while (token != NULL)
 {
 	printf(" %s\n", token);
 
-	token = strtok(NULL, s);
+	token = strtok_s(NULL, s, &token);
 }
 
 return(0);

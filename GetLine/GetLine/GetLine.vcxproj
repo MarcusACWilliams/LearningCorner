@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EC34DE58-5376-42BC-9504-09FEC83BEA9C}</ProjectGuid>
+    <ProjectGuid>{F7A2A32C-1D4A-4566-84DA-1231FDA04826}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Tokens</RootNamespace>
+    <RootNamespace>GetLine</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,8 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="getline.c" />
-    <ClCompile Include="token.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
